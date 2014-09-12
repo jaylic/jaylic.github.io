@@ -1,3 +1,15 @@
-p {
+.biography {
   color: rgb(255,0,254);
+}
+
+.header-name {
+  color: orange;
+}
+
+h2 {
+  color:cornflowerblue;
+}
+
+.section-title {
+  color:cornflowerblue;
 }
