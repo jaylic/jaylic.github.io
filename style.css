@@ -26,3 +26,7 @@ ul {
    color: rgb(47,79,79);
    list-style-type: none
 }
+
+div {
+  text-align: center;
+}
