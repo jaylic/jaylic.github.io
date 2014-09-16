@@ -11,10 +11,12 @@
 body {
   font-family: 'Cabin', sans-serif;
   text-align: center;
+  color: rgb(47,79,79);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Sorts Mill Goudy', serif;
+  color: rgb(6,67,128);
 }
 
 .section-title {
@@ -23,10 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-   color: rgb(47,79,79);
    list-style-type: none
 }
 
-div {
+a:hover {
+  color: rgb(128,6,135);
+  }
+
+a {
   text-align: center;
 }
