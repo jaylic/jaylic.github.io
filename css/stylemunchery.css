@@ -1,0 +1,10 @@
+body {
+  line-height: 1.5;
+  color: white
+  ;
+  background: url('../images/muncheryApp.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
