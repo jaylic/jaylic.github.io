@@ -1,3 +1,27 @@
 body {
-  background: gray url("../images/dimension_@2X.png") no-repeat top right;
+  background: gray url("../images/dimension_@2X.png");
 }
+
+a{
+  color:orange;
+  text-decoration: none;
+}
+
+a:visited{
+  color:lightcoral;
+}
+
+a:hover{
+  color:lightskyblue;
+  text-decoration: underline;
+}
+
+a:active{
+  color:maroon;
+}
+
+p::before{
+  content: "Instructions: ";
+  color: mediumslateblue;
+  font-size: 24px;
+  }
