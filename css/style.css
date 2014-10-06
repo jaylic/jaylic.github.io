@@ -6,6 +6,12 @@
   color: rgb(6,67,128);
   text-align: center;
   font-family: 'Dr Sugiyama', cursive;
+  background: gray url("../images/dimension_@2X.png");
+}
+
+.socials {
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 body {
@@ -29,8 +35,12 @@ ul {
    padding-left: 0px;
 }
 
+div {
+  background-color: #CCD6EB;
+}
+
 a:hover {
-  color: rgb(128,6,135);
+  color: yellow;
   }
 
 a {
