@@ -1,0 +1,21 @@
+header {
+  background-color: #27dbdb;
+  height: 10em;
+  width: 100%;
+  margin: 0px;
+}
+
+.box-model {
+  background-color: #db2727; 
+  height: 300px;
+  width: 300px; 
+  border-style: dashed;
+  border-radius: 5;
+  padding: 20px;
+  margin: 50px 20px;
+
+}
+
+body, h1, p {
+  margin: 0px;
+}
