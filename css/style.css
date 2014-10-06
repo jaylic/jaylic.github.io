@@ -43,6 +43,14 @@ a:hover {
   color: yellow;
   }
 
+a:visited {
+  color: rgb(6,67,128);
+}
+
+a:active {
+  color: orange;
+}
+
 a {
   text-align: center;
 }
