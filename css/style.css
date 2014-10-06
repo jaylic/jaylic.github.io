@@ -39,18 +39,19 @@ div {
   background-color: #CCD6EB;
 }
 
+a {
+  text-align: center;
+  color: rgb(6,67,128);
+}
+
 a:hover {
   color: yellow;
   }
 
 a:visited {
-  color: rgb(6,67,128);
-}
-
-a:active {
   color: orange;
 }
 
-a {
-  text-align: center;
+a:active {
+  color: red;
 }
