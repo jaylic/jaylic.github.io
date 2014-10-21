@@ -1,57 +1,100 @@
-.biography {
-  color: rgb(47,79,79);
-}
-
-.header-name {
-  color: rgb(6,67,128);
-  text-align: center;
-  font-family: 'Dr Sugiyama', cursive;
-  background: gray url("../images/dimension_@2X.png");
-}
-
-.socials {
-  text-align: center;
-  font-size: 18px;
-}
-
 body {
+
+  /* Full Page Background Receipe */
+  background: url("../images/DannyWebpageWeb.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 560px;
+  height: 40px;
+  margin: 80px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  padding-top: 0px;
+  text-align: center;
+
+}
+
+.container-2 {
+  width: 560px;
+  height: 150px;
+  margin: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.container-3 {
+  width: 560px;
+  height: 360px;
+  padding-left: 45px;
+  text-align: center;
+  margin: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icon-container {
+  width: 560px;
+  height: 40px;
+  margin: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.container-4 {
+  width: 350px;
+  height: 630px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 30px;
   font-family: 'Cabin', sans-serif;
+  background: rgba(201,201,201,.7);
+  border-radius: 10px;
+}
+
+h1  {
+  font-family: 'Cabin', sans-serif;
+  padding: 0px;
+}
+
+h3 {
+  font-family: 'Cabin', sans-serif;
+  padding: 0px;
+  line-height: .5;
+}
+
+a{
+  color:3366cc;
+  text-decoration: underline;
+}
+
+a:visited{
+  color:red;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:yellow;
+  text-decoration: underline;
+}
+
+a:active{
+  color:maroon;
+}
+
+p {
   text-align: center;
-  color: rgb(47,79,79);
+  color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Sorts Mill Goudy', serif;
-  color: rgb(6,67,128);
-}
-
-.section-title {
-  color: rgb(6,67,128);
-  text-align: center;
-}
-
-ul {
-   list-style-type: none;
-   padding-left: 0px;
-}
-
-div {
-  background-color: #CCD6EB;
-}
-
-a {
-  text-align: center;
-  color: rgb(6,67,128);
-}
-
-a:hover {
-  color: yellow;
-  }
-
-a:visited {
-  color: orange;
-}
-
-a:active {
-  color: red;
+.icon-container a {
+  text-decoration: none;
 }
